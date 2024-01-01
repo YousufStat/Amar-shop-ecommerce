@@ -1,0 +1,128 @@
+.NavItem{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.cart-trolley--link {
+    position: relative;
+}
+.cart-trolley {
+    position: relative;
+    font-size: 2.5rem;
+    color: blueviolet;
+    margin-left:5px;
+}
+.cart-total--item {
+    width: 4.2rem;
+    height: 4.2rem;
+    font-size: 1rem;
+  }
+  .homeGrid{
+    display:inline-block;
+  }
+.grid{
+    height: 500px;
+    display: grid;
+    grid-column-gap:15px;
+   box-sizing: border-box;
+}
+.grid-three-column{
+    grid-template-columns:300px 300px 300px 300px;
+    justify-content: center;
+}
+.Card-Img{
+    height: 230px;
+}
+.Card-Des{
+    height: 80px;
+}
+/* .filterProductList{
+    display: grid;
+
+} */
+.filterProductList2{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,400px);
+    justify-content: center;
+}
+.sort-btn {
+    padding: 0.8rem 1rem;
+    border: none;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+  .active {
+    background-color: #000;
+    color: #fff;
+  }
+  .product-data{
+    display: inline-block;
+    margin: auto;
+  }
+  .SortCol2form{
+    display:block;
+    float: right;
+    font-size: 30px;
+  }
+
+  /* Footer Section */
+  .footerSection{
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    margin-top: 5rem;
+}
+.serviceName{
+  margin-top: 1rem;
+  font-family: 'Raleway',sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.socialLink{
+  text-decoration: none;
+  color: #0073E6;
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.socialLink:hover{
+  text-decoration: none;
+  color: #000000; 
+}
+.serviceDescription{
+  color: #7F7E7E;
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footerLink{
+  text-decoration: none;
+  color: #7F7E7E;
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footerLink:hover{
+  text-decoration: none;
+  color: #0073E6;  
+}
+.copyRightSection{
+  padding: 20px 20px 20px 20px;
+  background-color: #0073E6;
+}
+.copyRightLink{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.copyRightLink:hover{
+  text-decoration: none;
+  color: #000000;
+}
